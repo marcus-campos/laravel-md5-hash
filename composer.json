@@ -1,0 +1,32 @@
+{
+    "name": "marcus-campos/laravel-md5-hash",
+    "description": "Laravel 5 package to use unsecured MD5 for password hash. For use in legacy systems.",
+    "keywords": ["laravel", "md5", "hash", "password"],
+    "require": {
+        "illuminate/support": "5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0|^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcus Campos",
+            "email": "campos.v.marcus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "L5MD5Hash\\Md5Hash\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "L5MD5Hash\\Md5Hash\\Test\\": "tests"
+        }
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
